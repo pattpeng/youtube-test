@@ -1,7 +1,4 @@
 {
-  "homepage": "https://pattpeng.github.io/youtube-test/",
-  
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
