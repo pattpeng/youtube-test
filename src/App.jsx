@@ -8,19 +8,19 @@ function App() {
     <>
     <div className='header'>
       <div className='header1'>
-        <img className='icon' src = './src/hamburger-menu.svg'></img>
-        <img className='icon-logo' src = './src/youtube-logo.svg'></img>
+        <img className='icon' src = './hamburger-menu.svg'></img>
+        <img className='icon-logo' src = './youtube-logo.svg'></img>
       </div>
       <div className='header2'>
         <input className ='search-box' placeholder='Search'></input>
-        <div className='search-button'><img class='search-icon' src = './public/home.svg'></img></div> 
-        <div className='voice-button'><img class='voice-icon' src = './public/voice-search-icon.svg'></img></div>
+        <div className='search-button'><img class='search-icon' src = './home.svg'></img></div> 
+        <div className='voice-button'><img class='voice-icon' src = './voice-search-icon.svg'></img></div>
         
       </div>
       <div className='header3'>
-      <img className='icon'src= './public/upload.svg'></img>
-      <img className='icon'src= './public/notif.svg'></img>
-      <img className='icon' style={{ borderRadius: '20px' }} src= './public/profile.jpg'></img>
+      <img className='icon'src= './upload.svg'></img>
+      <img className='icon'src= './notif.svg'></img>
+      <img className='icon' style={{ borderRadius: '20px' }} src= './profile.jpg'></img>
       </div>
     </div>
     <div className='middle'>
@@ -39,18 +39,17 @@ function App() {
           <GridItems/>
         </div>
         <div className='shorts-header'>
-          <img src='./public/shortsb.png' className='icon'/> <h2>Shorts</h2>
+          <img src='./shortsb.png' className='icon'/> <h2>Shorts</h2>
          </div>
-        <div className='shorts-grid'>
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
-            <div className='shorts-items'><img className='shorts-video' src='./public/shorts-img1.jpg'/></div> 
+         <div className='shorts-grid'>
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
+            <div className='shorts-items'><img className='shorts-video' src='./shorts-img1.jpg'/></div> 
         </div>
-        
       </div>
     </div>
        
